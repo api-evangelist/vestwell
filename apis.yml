@@ -1,9 +1,30 @@
 aid: vestwell
 name: Vestwell
-description: Vestwell is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vestwell is a New York City-based digital savings and retirement platform (founded 2016)
+  that powers workplace savings programs for employers, financial advisors, financial
+  institutions, TPAs, PEOs, payroll and benefit partners, and government agencies. Its
+  recordkeeping and administration engine supports traditional and Safe Harbor 401(k),
+  Solo-k, Starter-k, pooled/PEP plans, 403(b), 529 education savings, ABLE, emergency
+  savings, student-loan repayment, and tuition reimbursement, as well as state-facilitated
+  ("government savings") retirement programs. Vestwell emphasizes payroll and HR
+  integrations (auto-sync across 190+ payroll providers) rather than a public developer
+  API; onboarding, servicing, and saver access run through its web platform. Surfaced as a
+  Lightspeed Venture Partners portfolio company and profiled here for the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/vestwell/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/1bb3tkb6/production/14342f728cf26b81ef038e34294fbb7e33c08393-1200x630.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Retirement
+- Workplace Savings
+- 401(k)
+- 529 College Savings
+- Financial Services
+- Fintech
+- Recordkeeping
+- Payroll Integration
+- State Retirement Programs
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vestwell-domain-security.yml
+- type: Website
+  url: https://www.vestwell.com
+- type: Blog
+  url: https://www.vestwell.com/blog
+- type: Support
+  url: https://support.vestwell.com/hc/en-us
+- type: SignUp
+  url: https://growth.vestwell.com/onboarding
+- type: Login
+  url: https://signin.vestwell.com
+- type: PrivacyPolicy
+  url: https://www.vestwell.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/vestwell
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
